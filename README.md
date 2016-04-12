@@ -33,7 +33,9 @@ Comment form til að segja frá sér.
 
 
 5. Uppdráttur – skissa af skipulagi og útliti vefsíðu.
-
+Grunnlitur gæti verið ryðrauður litur.
+dæmi um HEX liti; #961512, #8D110F, #5B0B08.
+FONT frá: https://www.google.com/fonts/specimen/Old+Standard+TT#charset
 
 
 
