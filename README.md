@@ -40,4 +40,4 @@ FONT frá: https://www.google.com/fonts/specimen/Old+Standard+TT#charset
 annað: 
 scroll down síða : https://www.youtube.com/watch?v=Z6tEvtQ6E7U
 
-
+ÓmERKILEGT!!
