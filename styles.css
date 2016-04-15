@@ -1,0 +1,12 @@
+html {
+	
+}
+
+body {
+	margin: 0 auto;
+	max-width: 5em;
+	font-family: 'Old Standard TT', serif;
+}
+
+@media screen and (min-width: 30em) {}
+@media screen and (min-width: 48em) {}
