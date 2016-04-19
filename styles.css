@@ -1,12 +1,31 @@
-html {
-	
+h1 {
+	text-align: center;
 }
 
 body {
 	margin: 0 auto;
-	max-width: 5em;
+	max-width: 50em;
 	font-family: 'Old Standard TT', serif;
+	background-color: #8D110F;
+}
+footer {
+	text-align: right;
 }
 
-@media screen and (min-width: 30em) {}
-@media screen and (min-width: 48em) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width: 30em) {}
+@media screen and (min-width: 48em) {}*/
+

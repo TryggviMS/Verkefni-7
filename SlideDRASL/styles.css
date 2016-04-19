@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    overflow: hidden;
+    max-width: 20em;
+}
+
+div {
+	display: block;
+}
+
+
+
+img {
+        display: block;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+/* The Pages */
+
+#i1 { left: 0%; background-color: #fff; }
+#i1 { left: 100%; background-color: #fff; }
+#i2 { left: 200%; background-color: #bbb; }
+#i3 { left: 300%; background-color: #777; }
+
+.page { 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+}
+
+
+/* The Transition Effect */
+
+.page { 
+	-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	transition: transform 0.8s;
+}
+
+
+
+/* The Sliding Action */
+/* TranslateX for better Performance. Translate3D for better Performance on Ipad. */
+
+#a1:target .page { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
+#a2:target .page { -webkit-transform: translateX(-200%); -moz-transform: translateX(-200%); -o-transform: translateX(-200%); transform: translateX(-200%); }
+#a3:target .page { -webkit-transform: translateX(-300%); -moz-transform: translateX(-300%); -o-transform: translateX(-300%); transform: translateX(-300%); }
+
+
+
+
+/* The First Page - Initial Positioning without Anchor */
+
+.page { 
+-webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%);
+}
+
+.backbutton {
+    cursor: url('left.png'), w-resize;
+    left: 0;
+}
+.nextbutton, .backbutton {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+.nextbutton {
+    cursor: url('right.png'), e-resize;
+    right: 0;
+}
+.nextbutton, .backbutton {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+/*mitt dót*/
+
+
+
+
+/***/
+ a {
+    color: #fff;
+    background-image: url("myndx.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: block;
+}
+@media screen and (min-width: 30em) {}
+@media screen and (min-width: 48em) {
+
+body   {
+    max-width: 50em;
+}
+
+}
