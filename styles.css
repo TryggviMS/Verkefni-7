@@ -1,12 +1,26 @@
 h1 {
 	text-align: center;
 }
+<<<<<<< HEAD
+html {
+	background-color: #8D110F;
+}
+body {
+	margin: 0 auto;
+	width: 50em;
+	font-family: 'Old Standard TT', serif;
+	background-color: #D41A17;
+	height: 50em;
+	  box-shadow: 0.5em 0.5em 0.5em #63000E;
+	  border-radius: 0.2em;
+=======
 
 body {
 	margin: 0 auto;
 	max-width: 50em;
 	font-family: 'Old Standard TT', serif;
 	background-color: #8D110F;
+>>>>>>> 6dc0e7a8428847683993406782953b4d46fc7c4c
 }
 footer {
 	text-align: right;
