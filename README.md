@@ -29,7 +29,7 @@ Comment form til að segja frá sér.
 
 
 4. Skipulag vefsins - veftré
-
+3 síður, forsíða, upplýsingasíða og pöntunarsíða.
 
 
 5. Uppdráttur – skissa af skipulagi og útliti vefsíðu.
