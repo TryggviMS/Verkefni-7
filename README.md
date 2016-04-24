@@ -1,15 +1,9 @@
 # Verkefni-7
 GitHub svæði fyrir verkefni 7
-
 Mars Two
-
-
-1. Hver er viðskiptavinurinn? Hverjar eru óskir hans um vefinn?
+1. Hver er viðskiptavinurinn? Hverjar eru óskir hans um vefinn?,
 Hver er markhópur vefsins?
 Fólk sem vill fara til Mars
-
-
-
 
 2. Innihaldslisti - hvað á að vera á vefnum
  
@@ -29,13 +23,14 @@ Comment form til að segja frá sér.
 
 
 4. Skipulag vefsins - veftré
-3 síður, forsíða, upplýsingasíða og pöntunarsíða.
+3 síður, forsíða, upplýsingasíða og pöntunarsíða. linkar á t.d. Wikipedia, NASA, ESA o.fl.
 
 
 5. Uppdráttur – skissa af skipulagi og útliti vefsíðu.
 Grunnlitur gæti verið ryðrauður litur.
 dæmi um HEX liti; #961512, #8D110F, #5B0B08.
-FONT frá: https://www.google.com/fonts/specimen/Old+Standard+TT#charset
+FONT frá: https://www.google.com/fonts/specimen/Old+Standard+TT#charset .
+Bæta við myndum t.d. á aukasíðuna og kanski í header og footer.
 
 annað: 
  Aðalsíða, síða 1; nafn á business, logo kannski, 
@@ -43,8 +38,8 @@ annað:
  pöntunarsíða, síða 3; 
 
 github vesen;
-git remote add origin [//your github url]
-//pull those changes
-git pull origin master
-//now, push your work to your new repo
-git push origin master.
+git remote add origin [//your github url] .
+//pull those changes.
+git pull origin master .
+//now, push your work to your new repo.
+git push origin master .
