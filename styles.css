@@ -1,3 +1,28 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
 h1 {
 	text-align: center;
 }
@@ -15,22 +40,51 @@ body {
 	  border-radius: 0.5em;
 }
 
-
-
-
-
-.group:before,
-.group:after {
-	content: "";
-	display: table;
+/*forms síða
+-------*/
+.formin {
+  float: left;
+  width: 45em;
+  background-color: white;
+  padding: 0.5em;
 }
-.group:after {
-	clear: both;
+label {
+  display: block;
+  padding: .5em 0;
 }
-.group {
-	clear: both;
-	*zoom: 1;
+.col-left {
+  float: left;
+  width: 33%;
+
 }
+.col-right {
+  float: right;
+  width: 33%;
+}
+.label-check-radio
+{
+  display:inline-block;
+}
+fieldset
+{
+  border-radius:25px;
+  border: black solid 2px;
+}
+input[type=submit]
+{
+  
+  background: linear-gradient( to left, white, grey); 
+  color: black;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+input:not(:focus):invalid {
+  outline: 2px solid red;
+}
+input:focus:invalid {
+  outline: 2px solid blue;
+}
+
 /*----------*/
  /*fellilisti*/
  /*---------*/

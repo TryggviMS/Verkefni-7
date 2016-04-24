@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+		 <meta charset="utf-8">
+        <title>Skráning</title>
+      	<link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+		<h1>Mars Two</h1>
+
+		<div>
+		<input type="checkbox" id="toggle" >
+		<label for="toggle">Menu &#9776; </label>
+		<nav class="group"> 
+            <ul>
+                <li><a href="index.html">Upplýsingar</a></li>
+                <li><a href="speakers.html">Skráningarform</a></li>
+				
+            </ul>
+        </nav>
+		</div>
+	</header>
+	<fieldset class="formin"> <!--FORMS  <input type="submit" value="Senda"> -->
+		
+		<div class="col-left">
+			<label>Nafn:</label>
+				<input type="text" required placeholder="Sláðu inn nafn">
+			<label>Email:</label>
+				<input type="email" required placeholder="Tölvupóstfang">
+			<label>Símanúmer</label>
+				<input type="numbers" required maxlength="8" pattern="[0-9]{3}-[0-9]{4}" placeholder="xxx-xxxx">
+			<label>Kyn:</label>
+				<label class="label-check-radio">Kona</label>
+					<input type="radio" name="radiobtn" id="rbtn1" checked>
+				<label class="label-check-radio">Karl</label>
+					<input type="radio" name="radiobtn" id="rbtn2">
+				<label class="label-check-radio">Annað</label>
+					<input type="radio" name="radiobtn" id="rbtn3">
+		</div>
+		<div class="col-left">
+			<label>Heimilisfang</label>
+				<input type="text" required placeholder="Heimilisfang">
+			<label>Kennitala</label>
+				<input type="numbers" required maxlength="11" pattern="[0-9]{6}-[0-9]{4}" placeholder="xxxxxx-xxxx">
+			<label>Kreditkort</label>
+				<input type="text" required>
+				<label class="label-check-radio">Mastercard</label>
+					<input type="radio" name="radiobtn" id="rbtn1" checked>
+				<label class="label-check-radio">Visa</label>
+					<input type="radio" name="radiobtn" id="rbtn2">
+				<label class="label-check-radio">Annað</label>
+					<input type="radio" name="radiobtn" id="rbtn3">
+				
+		</div>
+		<div class="col-right">
+			<label>Spurningar</label>
+				<textarea rows="4" cols="20" placeholder="Spurningar"></textarea>
+			<label>Ferilskrá</label>
+				<input type="file" />
+			<br></br>
+		
+		</div>
+			<input type="submit">
+	</fieldset>
+
+<div class="group"></div>
+
+	<footer>
+		<nav class="col1-2"> 
+		<h4>Fleiri linkar</h4>
+            <ul>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="venue.html">Venue</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <nav class="col1-2"> 
+		<h4>Fleiri linkar</h4>
+            <ul>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="venue.html">Venue</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+
+	</footer>
+</body>
+</html>
