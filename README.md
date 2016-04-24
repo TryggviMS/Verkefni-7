@@ -31,6 +31,7 @@ Grunnlitur gæti verið ryðrauður litur.
 dæmi um HEX liti; #961512, #8D110F, #5B0B08.
 FONT frá: https://www.google.com/fonts/specimen/Old+Standard+TT#charset .
 Bæta við myndum t.d. á aukasíðuna og kanski í header og footer.
+Hægt að embeda kort með staðsetningu frá http://embedgooglemaps.com/en/ með iframe
 
 annað: 
  Aðalsíða, síða 1; nafn á business, logo kannski, 
