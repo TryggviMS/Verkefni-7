@@ -25,14 +25,13 @@
 		</div>
 	</header>
 	<fieldset class="formin"> <!--FORMS  <input type="submit" value="Senda"> -->
-		
 		<div class="col-left">
 			<label>Nafn:</label>
 				<input type="text" required placeholder="Sláðu inn nafn">
 			<label>Email:</label>
 				<input type="email" required placeholder="Tölvupóstfang">
 			<label>Símanúmer</label>
-				<input type="numbers" required maxlength="8" pattern="[0-9]{3}-[0-9]{4}" placeholder="xxx-xxxx">
+				<input type="tel" required maxlength="8" pattern="[0-9]{3}-[0-9]{4}" placeholder="xxx-xxxx">
 			<label>Kyn:</label>
 				<label class="label-check-radio">Kona</label>
 					<input type="radio" name="radiobtn" id="rbtn1" checked>
@@ -45,15 +44,16 @@
 			<label>Heimilisfang</label>
 				<input type="text" required placeholder="Heimilisfang">
 			<label>Kennitala</label>
-				<input type="numbers" required maxlength="11" pattern="[0-9]{6}-[0-9]{4}" placeholder="xxxxxx-xxxx">
+				<input type="text" required maxlength="11" pattern="[0-9]{6}-[0-9]{4}" placeholder="xxxxxx-xxxx">
 			<label>Kreditkort</label>
 				<input type="text" required>
+				<label>Kortafyrirtæki</label>
 				<label class="label-check-radio">Mastercard</label>
-					<input type="radio" name="radiobtn" id="rbtn1" checked>
+					<input type="radio" name="kredit" id="button1" checked>
 				<label class="label-check-radio">Visa</label>
-					<input type="radio" name="radiobtn" id="rbtn2">
+					<input type="radio" name="kredit" id="button2">
 				<label class="label-check-radio">Annað</label>
-					<input type="radio" name="radiobtn" id="rbtn3">
+					<input type="radio" name="kredit" id="button3">
 				
 		</div>
 		<div class="col-right">
@@ -65,6 +65,7 @@
 		
 		</div>
 			<input type="submit">
+
 	</fieldset>
 
 <div class="group"></div>

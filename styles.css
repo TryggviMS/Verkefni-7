@@ -1,34 +1,12 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-/*
-  ========================================
-  Clearfix
-  ========================================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
 
-body  {
+body {
    font-family: 'Old Standard TT', serif;
   background-color: #8D110F;
   height: auto;
     box-shadow: 0.5em 0.5em 0.5em #63000E;
     border-radius: 0.5em;
+    width: 316px;
+    margin: auto 0;
 }
 h1 {
 	text-align: center;
@@ -38,16 +16,14 @@ html {
 	background-color: white;
 }
 
-
 /*forms síða
 -------*/
 .formin {
   float: left;
-  width: auto;
   background-color: white;
   padding: 0.5em;
 }
-label {
+fieldset label {
   display: block;
   padding: .5em 0;
 }
@@ -156,11 +132,7 @@ header input {
 } 
 
 /*------------*/
-body {
-	margin: 0 auto ;
-	padding: 0 1em;
-	padding-top: 2.75em;
-}
+
 /*------
 endir fellilisti
 --------*/
@@ -170,7 +142,7 @@ footer
 ----------------*/
 footer {
 	background-color: grey;
-	width: 30em;
+	width: 18em;
 	display: inline-block;
 }
 footer nav {
@@ -257,6 +229,9 @@ header nav a
   color: black;
 
 }
-
+footer {
+  width: 30em;
+  display: inline-block;
+}
 }
 
