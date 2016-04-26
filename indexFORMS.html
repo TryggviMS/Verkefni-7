@@ -27,7 +27,7 @@
 	<h2>Skráningarform</h2>
 	<p>Hérna er skráningarform</p>
 
-
+	<form>
 	<fieldset class="formin"> <!--FORMS  <input type="submit" value="Senda"> -->
 		<div class="col-left">
 			<label>Nafn:</label>
@@ -62,16 +62,16 @@
 		</div>
 		<div class="col-right">
 			<label>Spurningar</label>
-				<textarea rows="4" cols="20" placeholder="Spurningar"></textarea>
+				<textarea rows="3" cols="20" placeholder="Spurningar"></textarea>
 			<label>Ferilskrá</label>
 				<input type="file" />
 			<br></br>
-		<input type="submit" value="Senda">
+			<input type="submit" name="sendaForms" value="Senda">
 			<br></br>
-			<input type="reset" value="">
+			<input type="reset" name="hreinsaForms" value="">
 		</div>
 	</fieldset>
-
+</form>
 <div class="group"></div>
 
 	<footer>

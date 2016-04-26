@@ -1,19 +1,20 @@
 body {
     font-family: 'Old Standard TT', serif;
-    background-color: #8D110F;
-    height: auto;
+    background-color: #BF0B0A;
     box-shadow: 0.5em 0.5em 0.5em #63000E;
-    border-radius: 0.5em;
-    width: 316px;
-    margin: auto 0;
+    border-radius: 1em;
+    margin: 0 auto;
 }
+body > * {
+  margin: 1em;
+}
+
 h1 {
 	text-align: center;
 }
 
 html {
 	background-color: white;
-  margin: .5em;
 }
 
 /*forms síða
@@ -21,22 +22,26 @@ html {
 .formin {
   float: left;
   background-color: white;
-  padding: 0.5em;
+}
+form {
+  
+}
+fieldset
+{
+  border-radius:25px;
+  border: black solid 2px;
+  
 }
 fieldset label {
   display: block;
-  padding: .5em 0;
+  padding: .75em 0;
 }
 
 .label-check-radio
 {
   display:inline-block;
 }
-fieldset
-{
-  border-radius:25px;
-  border: black solid 2px;
-}
+
 input[type=submit]
 {
   height: 2em;
@@ -116,7 +121,6 @@ header input {
  header ul {
   list-style: none;
   background-color: red;
-  margin: 0;
   padding: 0;
   max-width:24em;
 }
@@ -191,7 +195,6 @@ fyrir Iframe map
 .articlasi {
   width: 50%;
   text-align: justify;
-  margin: .5em;
 }
 
 
@@ -201,7 +204,6 @@ fyrir Iframe map
 @media screen and (min-width: 30em) {}/********************************************/
 @media screen and (min-width: 48em) {
 body {
-  margin: 0 auto;
   width: 70em;
  
 }
@@ -225,7 +227,6 @@ header input + label {
 	display: none;
 }
 header nav {
-	 padding: 0 0.5em;
 }
  /**/
 
@@ -238,7 +239,6 @@ header nav {
 
 header  ul
 {
-  text-align: center;
   max-width: 17.5em;
 
 }
@@ -263,6 +263,5 @@ header nav a
 footer {
   width: 30em;
   display: inline-block;
-  margin: .5em;
 }
 }
