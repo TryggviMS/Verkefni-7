@@ -39,8 +39,8 @@ fieldset
 }
 input[type=submit]
 {
-  
-  background: linear-gradient( to left, white, grey); 
+  height: 2em;
+  width: 5em;
   color: black;
   box-shadow: 2px 2px 2px 2px;
 }
@@ -51,6 +51,18 @@ input:not(:focus):invalid {
 input:focus:invalid {
   outline: 2px solid blue;
 }
+
+input[type=reset]
+{
+   background-image: url("icon-trash.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 2em;
+  width: 5em;
+  box-shadow: 2px 2px 2px 2px;
+  display: block;
+}
+
 
 /*----------*/
  /*fellilisti*/
@@ -130,6 +142,15 @@ header input {
  header a:hover {
   color: #ff7b29;
 } 
+
+/*----------
+setja mynd í menu li
+-------------*/
+ul li {
+  background-image: url("icon-link.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+}
 
 /*------------*/
 
@@ -245,4 +266,3 @@ footer {
   margin: .5em;
 }
 }
-
