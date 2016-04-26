@@ -1,8 +1,7 @@
-
 body {
-   font-family: 'Old Standard TT', serif;
-  background-color: #8D110F;
-  height: auto;
+    font-family: 'Old Standard TT', serif;
+    background-color: #8D110F;
+    height: auto;
     box-shadow: 0.5em 0.5em 0.5em #63000E;
     border-radius: 0.5em;
     width: 316px;
@@ -14,6 +13,7 @@ h1 {
 
 html {
 	background-color: white;
+  margin: .5em;
 }
 
 /*forms síða
@@ -164,6 +164,16 @@ footer a:focus {
  width: 50%;
 }
 
+/*----------
+fyrir Iframe map
+-------------*/
+.articlasi {
+  width: 50%;
+  text-align: justify;
+  margin: .5em;
+}
+
+
 
 
 
@@ -194,7 +204,7 @@ header input + label {
 	display: none;
 }
 header nav {
-	 padding: 0 1em;
+	 padding: 0 0.5em;
 }
  /**/
 
@@ -232,6 +242,7 @@ header nav a
 footer {
   width: 30em;
   display: inline-block;
+  margin: .5em;
 }
 }
 
